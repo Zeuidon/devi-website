@@ -1,0 +1,161 @@
+// // App.js
+// import React from 'react';
+// import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+// import Navbar from './components/Navbar';
+// import Homepage from './pages/Homepage';
+// import ProductsPage from './pages/ProductsPage';
+// import AboutPage from './pages/AboutPage';
+// import StoryPage from './pages/StoryPage';
+// import ContactPage from './pages/ContactPage';
+// import Footer from './components/Footer';
+
+// function App() {
+//   return (
+//     <Router>
+//       <div className="bg-[#F4D19C] text-[#73320D] min-h-screen flex flex-col">
+//         <Navbar />
+//         <Routes>
+//           <Route path="/" element={<Homepage />} />
+//           <Route path="/products" element={<ProductsPage />} />
+//           <Route path="/about" element={<AboutPage />} />
+//           <Route path="/stories" element={<StoryPage />} />
+//           <Route path="/contact" element={<ContactPage />} />
+//         </Routes>
+//         <Footer />
+//       </div>
+//     </Router>
+//   );
+// }
+
+// export default App;
+
+// // components/Navbar.js
+// import React from 'react';
+// import { Link } from 'react-router-dom';
+
+// function Navbar() {
+//   return (
+//     <nav className="flex justify-between items-center p-6 bg-[#A7C4BC]">
+//       <div className="text-2xl font-bold">DEVI</div>
+//       <div className="space-x-4">
+//         <Link to="/" className="hover:text-[#6A5ACD]">Home</Link>
+//         <Link to="/products" className="hover:text-[#6A5ACD]">Products</Link>
+//         <Link to="/about" className="hover:text-[#6A5ACD]">About</Link>
+//         <Link to="/stories" className="hover:text-[#6A5ACD]">Artisan Stories</Link>
+//         <Link to="/contact" className="hover:text-[#6A5ACD]">Contact</Link>
+//       </div>
+//     </nav>
+//   );
+// }
+
+// export default Navbar;
+
+// // pages/Homepage.js
+// import React from 'react';
+
+// function Homepage() {
+//   return (
+//     <div className="container mx-auto px-4 py-12">
+//       <section className="hero text-center">
+//         <h1 className="text-4xl font-bold mb-6">Empowering Artisans, Crafting Sustainable Style</h1>
+//         <p className="text-xl mb-8">Bags that tell a story of craftsmanship, sustainability, and women's empowerment</p>
+//         <div className="space-x-4">
+//           <button className="bg-[#73320D] text-white px-6 py-3 rounded hover:bg-[#6A5ACD] transition">
+//             View Products
+//           </button>
+//           <button className="border-2 border-[#73320D] px-6 py-3 rounded hover:bg-[#A7C4BC] transition">
+//             Learn More
+//           </button>
+//         </div>
+//       </section>
+
+//       <section className="featured-products my-16">
+//         <h2 className="text-3xl text-center mb-8">Featured Collections</h2>
+//         <div className="grid grid-cols-3 gap-8">
+//           {/* Product card components would be added here */}
+//         </div>
+//       </section>
+
+//       <section className="impact-summary text-center">
+//         <h2 className="text-3xl mb-6">Our Impact</h2>
+//         <div className="flex justify-around">
+//           <div>
+//             <h3 className="text-2xl font-bold">50+</h3>
+//             <p>Women Artisans Empowered</p>
+//           </div>
+//           <div>
+//             <h3 className="text-2xl font-bold">75%</h3>
+//             <p>Sustainable Materials</p>
+//           </div>
+//           <div>
+//             <h3 className="text-2xl font-bold">0</h3>
+//             <p>Waste Production Goal</p>
+//           </div>
+//         </div>
+//       </section>
+//     </div>
+//   );
+// }
+
+// export default Homepage;
+
+// // pages/ProductsPage.js
+// import React, { useState } from 'react';
+
+// const products = [
+//   {
+//     id: 1,
+//     name: 'Eco Tote',
+//     price: 89.99,
+//     materials: ['Organic Cotton', 'Recycled Threads'],
+//     image: '/path-to-product-image'
+//   },
+//   // More products would be added here
+// ];
+
+// function ProductsPage() {
+//   const [filter, setFilter] = useState('all');
+
+//   return (
+//     <div className="container mx-auto px-4 py-12">
+//       <h1 className="text-4xl text-center mb-8">Our Sustainable Bags</h1>
+      
+//       <div className="filters mb-8 flex justify-center space-x-4">
+//         <button 
+//           onClick={() => setFilter('all')}
+//           className={`px-4 py-2 rounded ${filter === 'all' ? 'bg-[#73320D] text-white' : 'bg-[#A7C4BC]'}`}
+//         >
+//           All Bags
+//         </button>
+//         <button 
+//           onClick={() => setFilter('tote')}
+//           className={`px-4 py-2 rounded ${filter === 'tote' ? 'bg-[#73320D] text-white' : 'bg-[#A7C4BC]'}`}
+//         >
+//           Tote Bags
+//         </button>
+//         {/* More filter buttons */}
+//       </div>
+
+//       <div className="grid grid-cols-3 gap-8">
+//         {products
+//           .filter(product => filter === 'all' || product.type === filter)
+//           .map(product => (
+//             <div key={product.id} className="product-card border p-4 rounded">
+//               <img src={product.image} alt={product.name} className="w-full mb-4" />
+//               <h3 className="text-xl font-bold">{product.name}</h3>
+//               <p>${product.price}</p>
+//               <button className="mt-4 bg-[#6A5ACD] text-white px-4 py-2 rounded">
+//                 Add to Cart
+//               </button>
+//             </div>
+//           ))}
+//       </div>
+//     </div>
+//   );
+// }
+
+// export default ProductsPage;
+
+// // Additional pages (AboutPage, StoryPage, ContactPage) would be created similarly
+// // Styling uses Tailwind CSS with the specified color palette
+// // MongoDB integration would require backend setup not shown here
