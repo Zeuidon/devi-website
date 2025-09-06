@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "Dr. Babita Pandey",
+    "image": "/images/drBP_cropped.jpg",
+    "specialty": "Founder of DEVI",
+    "quote": "I founded DEVI, to empower woman because when women create, economies grow",
+    "story": "Devi — a word that holds immense power. I am Dr. Babita Pandey, and I founded DEVI, inspired by Maa Durga. Courage, purity, wisdom, protection, strength, nourishment, justice, growth, and empowerment — these qualities not only define the Goddess but every woman. At DEVI, we strive to nurture and celebrate these very strengths in women."
+  },
+  {
+    "id": 2,
+    "name": "Preeti Prajapati",
+    "image": "/images/preeti_.png",
+    "specialty": "Traditional Textile Weaving",
+    "quote": "DEVI gave me the opportunity to support my family and showcase my craft to the world.",
+    "story": "A dynamic and enterprising 34-year-old woman from Varanasi. Preeti's training and expertise in quality control have been instrumental in leading the function. Her newfound independence has emboldened her to lead a fulfilling and purposeful life filled with the confidence and self-assurance she deserves."
+  },
+  {
+    "id": 3,
+    "name": "Ankita Sharma",
+    "image": "/images/ankita_.png",
+    "specialty": "Traditional Weaving",
+    "quote": "With DEVI, I turned stitches into strength and built a brighter future for my children.",
+    "story": "Ankita from Varanasi once relied completely on her husband's income. With DEVI's training, she learned bag-making and soon turned it into a livelihood. Today, she sells her handcrafted bags, supports her children's education, and proudly sends them to the school of her choice. Through DEVI, Ankita found not just a skill, but the confidence to build a brighter future for her family."
+  },
+  {
+    "id": 4,
+    "name": "Rinki",
+    "image": "images/rinki_.png",
+    "specialty": "Bag Weaving",
+    "quote": "DEVI gave me the skill to stand on my own feet and the pride of supporting my family.",
+    "story": "Rinki, from Lotuspet Basti, grew up as the only sister among three brothers. After losing her father, she had to leave school and could not continue her studies. With DEVI's training, she learned bag-making and turned her skills into a livelihood. Today, Rinki earns for herself, supports her family, and feels proud of the transformation DEVI has brought into her life."
+  },
+  {
+    "id": 5,
+    "name": "Anjali Kumari",
+    "image": "/images/anjali_.png",
+    "specialty": "Creative Tailoring and design Stitching",
+    "quote": "Through DEVI, I turned my love for stitching into independence and a livelihood.",
+    "story": "Anjali, the youngest in her family from Rajput Kartik village, grew up with limited means and the loss of her mother. She learned the basics of stitching from her sister but found real growth through DEVI’s free training program. With new skills and confidence, she set up her own small tailoring and design studio in the village. Today, Anjali not only supports herself financially but also turns her passion into a livelihood."
+  }
+]

@@ -1,0 +1,286 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Lux Tote",
+      "price": 32.00,
+      "image": "/images/product1.png",
+      "category": "tote",
+      "description": "Elegant and spacious, perfect for daily essentials",
+      "materials": ["Premium Canvas", "Leather Trim"],
+      "featured": true
+    },
+    {
+      "id": 2,
+      "name": "Festive Charm Pouch",
+      "price": 32.00,
+      "image": "/images/product2.png",
+      "category": "pouch",
+      "description": "Beautiful festive design with traditional craftsmanship",
+      "materials": ["Embroidered Silk", "Handwoven"],
+      "featured": true
+    },
+    {
+      "id": 3,
+      "name": "KP Tote",
+      "price": 52.00,
+      "image": "/images/product3.png",
+      "category": "tote",
+      "description": "Versatile design meets sustainable fashion",
+      "materials": ["Organic Cotton", "Recycled Materials"],
+      "featured": true
+    },
+    {
+      "id": 4,
+      "name": "EcoSip Bottle Bag",
+      "price": 28.00,
+      "image": "/images/product4.png",
+      "category": "bottle",
+      "description": "Sustainable bottle carrier for eco-conscious living",
+      "materials": ["Hemp Fiber", "Natural Dyes"],
+      "featured": true
+    },
+    {
+      "id": 5,
+      "name": "Boho Bloom Tote",
+      "price": 48.00,
+      "image": "/images/product5.png",
+      "category": "tote",
+      "description": "Bohemian-inspired design with vibrant patterns",
+      "materials": ["Organic Jute", "Botanical Dyes"],
+      "featured": true
+    },
+    {
+      "id": 6,
+      "name": "The Quadra Tote",
+      "price": 44.00,
+      "image": "/images/product6.png",
+      "category": "tote",
+      "description": "Geometric modern design meets traditional craftsmanship",
+      "materials": ["Canvas", "Cotton Lining"],
+      "featured": true
+    },
+    {
+      "id": 7,
+      "name": "Warli Jute Bottle Bag",
+      "price": 38.00,
+      "image": "/images/product7.png",
+      "category": "bottle",
+      "description": "Traditional patterns celebrating cultural heritage",
+      "materials": ["Handwoven Cotton", "Gold Thread"],
+      "featured": true
+    },
+    {
+      "id": 8,
+      "name": "Indi Jute Bottle Bag",
+      "price": 42.00,
+      "image": "/images/product8.png",
+      "category": "bottle",
+      "description": "Handcrafted Indi sustainable bottle bag",
+      "materials": ["Fair Trade Cotton", "Natural Handles"],
+      "featured": false
+    },
+    {
+      "id": 9,
+      "name": "Chhota Bheem Bottle Bag",
+      "price": 26.00,
+      "image": "/images/product9.png",
+      "category": "bottle",
+      "description": "Cute kids-friendly carry case",
+      "materials": ["Water-resistant Canvas", "Zipper Closure"],
+      "featured": false
+    },
+    {
+      "id": 10,
+      "name": "Blossom Pink Flower Earrings",
+      "price": 22.00,
+      "image": "/images/product10.jpeg",
+      "category": "earpiece",
+      "description": "Delicate floral stud design",
+      "materials": ["Bamboo Fiber", "Adjustable Strap"],
+      "featured": false
+    },
+    {
+      "id": 11,
+      "name": "Blue Blossom Stud Earrings",
+      "price": 46.00,
+      "image": "/images/product11.jpeg",
+      "category": "earpiece",
+      "description": "Chic dual-tone floral design",
+      "materials": ["Vegan Leather", "Recycled Lining"],
+      "featured": true
+    },
+    {
+      "id": 12,
+      "name": "Blush Bloom Studs",
+      "price": 30.00,
+      "image": "/images/product12.jpeg",
+      "category": "earpiece",
+      "description": "Delicate floral enamel charm",
+      "materials": ["Silk Blend", "Decorative Tassels"],
+      "featured": false
+    },
+    {
+      "id": 13,
+      "name": "TriPetal Blossom Drops",
+      "price": 50.00,
+      "image": "/images/product13.jpeg",
+      "category": "earpiece",
+      "description": "Graceful florals with pearls",
+      "materials": ["Waxed Canvas", "Reinforced Stitching"],
+      "featured": false
+    },
+    {
+      "id": 14,
+      "name": "Blossom Bloom Studs",
+      "price": 25.00,
+      "image": "/images/product14.jpeg",
+      "category": "earpiece",
+      "description": "Pink core with leafy frame",
+      "materials": ["Insulated Lining", "Drawstring Closure"],
+      "featured": false
+    },
+    {
+      "id": 15,
+      "name": "Amethyst Blossom Jhumkas",
+      "price": 35.00,
+      "image": "/images/product15.jpeg",
+      "category": "earpiece",
+      "description": "Purple charm with pink bloom",
+      "materials": ["Hand-embroidered", "Premium Silk"],
+      "featured": true
+    },
+    {
+      "id": 16,
+      "name": "Mystic Harmony Jhumkas",
+      "price": 35.00,
+      "image": "/images/product16.jpeg",
+      "category": "earpiece",
+      "description": "Vibrant fusion of hues",
+      "materials": ["Hand-embroidered", "Premium Silk"],
+      "featured": true
+    },
+    {
+      "id": 17,
+      "name": "Divine Glow Gift Box",
+      "price": 35.00,
+      "image": "/images/product17.png",
+      "category": "gift",
+      "description": "Elegant festive storage",
+      "materials": ["Hand-embroidered", "Premium Silk"],
+      "featured": true
+    },
+    {
+      "id": 18,
+      "name": "Golden Grace Gift Box",
+      "price": 35.00,
+      "image": "/images/product18.png",
+      "category": "gift",
+      "description": "Luxurious ribboned storage",
+      "materials": ["Hand-embroidered", "Premium Silk"],
+      "featured": true
+    },
+    {
+      "id": 19,
+      "name": "Floral Charm Box",
+      "price": 35.00,
+      "image": "/images/product19.png",
+      "category": "gift",
+      "description": "Rustic chained elegance",
+      "materials": ["Hand-embroidered", "Premium Silk"],
+      "featured": true
+    },
+    {
+      "id": 20,
+      "name": "Artisan's Pride Pouch",
+      "price": 35.00,
+      "image": "/images/product20.png",
+      "category": "pouch",
+      "description": "Showcasing the finest in traditional craftsmanship",
+      "materials": ["Hand-embroidered", "Premium Silk"],
+      "featured": true
+    },
+    {
+      "id": 21,
+      "name": "Peach Pouch",
+      "price": 35.00,
+      "image": "/images/product21.png",
+      "category": "pouch",
+      "description": "Chic ethnic carrier",
+      "materials": ["Hand-embroidered", "Premium Silk"],
+      "featured": true
+    },
+    {
+      "id": 22,
+      "name": "Golder floral Tote",
+      "price": 35.00,
+      "image": "/images/product22.png",
+      "category": "tote",
+      "description": "Showcasing the finest in traditional craftsmanship",
+      "materials": ["Hand-embroidered", "Premium Silk"],
+      "featured": true
+    },
+    {
+      "id": 23,
+      "name": "Regal Tote Set",
+      "price": 35.00,
+      "image": "/images/product23.png",
+      "category": "pouch",
+      "description": "Elegant dual carry",
+      "materials": ["Hand-embroidered", "Premium Silk"],
+      "featured": true
+    },
+    {
+      "id": 24,
+      "name": "Eco Laptop Bag",
+      "price": 35.00,
+      "image": "/images/product24.png",
+      "category": "laptop",
+      "description": "Durable jute carrier",
+      "materials": ["Hand-embroidered", "Premium Silk"],
+      "featured": true
+    }
+  ],
+  "categories": [
+    {
+      "id": "all",
+      "name": "All Products",
+      "description": "Browse our complete collection of sustainable handcrafted items"
+    },
+    {
+      "id": "pouch",
+      "name": "Pouches",
+      "description": "Elegant pouches for special occasions and daily essentials"
+    },
+    {
+      "id": "bottle",
+      "name": "Bottle Bags",
+      "description": "Eco-friendly carriers for your hydration needs"
+    },
+    {
+      "id": "tote",
+      "name": "Tote Bags",
+      "description": "Eco-friendly tote bags for everyday use"
+    },
+    {
+      "id": "gift",
+      "name": "Gift Boxes",
+      "description": "Beautiful packaging for special occasions"
+    },
+    {
+      "id": "earpiece",
+      "name": "Ear Pieces",
+      "description": "Handcrafted earrings and ear accessories"
+    },
+    {
+      "id": "jewellery",
+      "name": "Jewellery Sets",
+      "description": "Elegant jewelry collections for special moments"
+    },
+    {
+      "id": "laptop",
+      "name": "Laptop Bag",
+      "description": "Eco-friendly Laptop carriers"
+    }
+  ]
+}

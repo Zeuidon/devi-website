@@ -20,7 +20,7 @@ function Layout() {
             <li className="hidden md:block"><Link to="/" className="hover:text-[#6A5ACD]">Home</Link></li>
             <li><Link to="/products" className="hover:text-[#6A5ACD]">Products</Link></li>
             <li><Link to="/about" className= "hover:text-[#6A5ACD]">About</Link></li>
-            <li><Link to="/comingSoon" className="hover:text-[#6A5ACD]">Stories</Link></li>
+            <li><Link to="/stories" className="hover:text-[#6A5ACD]">Stories</Link></li>
             <li><Link to="/contact" className="hover:text-[#6A5ACD]">Contact</Link></li>
           </ul>
         </nav>
