@@ -199,7 +199,7 @@ function StoryPage() {
                   <img 
                     src={founder.image}
                     alt={founder.name}
-                    className="w-full h-64 md:h-80 object-cover group-hover:scale-110 transition-transform duration-500"
+                    className="w-full h-72 md:h-80 object-cover object-center group-hover:scale-110 transition-transform duration-500"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                 </div>
@@ -235,7 +235,7 @@ function StoryPage() {
                   <img 
                     src={artisan.image}
                     alt={artisan.name}
-                    className="w-full h-56 md:h-64 object-cover group-hover:scale-110 transition-transform duration-500"
+                    className="w-full h-72 md:h-72 object-cover object-top group-hover:scale-110 transition-transform duration-500"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                 </div>
